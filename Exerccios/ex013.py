@@ -1,0 +1,11 @@
+print('-' * 35)
+print('Calculo de aumeto de salario')
+print('-' * 35)
+nome = input('Escreva o nome do fucionario: ')
+x = float(input('Digite o valor da remuneração: R$ '))
+y = float(input('Digite a % em que rebera de aumento: '))
+print('Calculando.....')
+print('Calculo concluido!')
+z = x * y / 100
+print('O fucionario {} tem a remuneração de R${:.2f}\nCom um aumento de {:.2f}% o remuneração de {} é de R${:.2f}'.format(nome, x, y, nome, x+z))
+print('-'*35)
